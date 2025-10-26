@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel room booking form </title>
+</head>
+<body>
+    <h1 align="center">hotel room booking form</h1>
+    <form action="#" method="post" align="center"> 
+        <fieldset>
+    
+        <label for="fullname">full name:</label> 
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+        
+        <label for="email">email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+         
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <label for="checkin">check in date</label>
+        <input type="date" id="checkin" name="checkin">
+        <label for="checkout">checkout</label>
+        <input type="date" id="checkout" name="checkout">
+        <br><br>
+         
+        <label for="room">room type</label>
+        <select id="room" name="room">
+            <option value="single">single room</option>
+            <option value="double">double room</option>
+            <option value="deluxe">deluxe room</option>
+            <option value="suite">suite</option>
+        </select>
+        <br><br>
+        <label for="guest">number of guest:</label>
+        <input type="number" id="guest" name="guest" min="1" max="7">
+        <br><br>
+        <label for="request">special request</label><br>
+        <textarea id="request" name="request" rows="5" cols="50"></textarea>
+        <br><br>
+         
+        <input type="submit" value="book now">
+        <input  type="reset" value="reset rom">
+        </fieldset>
+
+    </form>
+    <hr> 
+    <h3>name:sheetal kumari chaurasia</h3>
+    <p>ad.no.2025b01010480</p>
+    <p>section:cse-26</p>
+</body>
+</html>

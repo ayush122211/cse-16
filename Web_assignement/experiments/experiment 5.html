@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+</head>
+<body>
+    <h1 align="center">student registration form</h1>
+    <hr>
+
+    <form method="post" action="submit.html">
+        
+        <p>
+            <label>full name:</label>
+            <input type="text" name="fullname" placeholder="enter your fullname" required>
+        </p>
+         <p>
+            <label>email</label>
+            <input type="email" name="email" placeholder="enter your email address" required>
+        </p>
+         <p>
+            <label>password</label>
+            <input type="password" name="password" placeholder="enter your password" required>
+        </p>
+         <p>
+            <label>gender</label>
+            <input type="radio" name="gender" value="male" required>male
+             <input type="radio" name="gender" value="female" required>female
+            
+        </p>
+        <p>
+            <label>course</label>
+            <select name="course" required>
+                <option value="">--select course--</option>
+                <option value="btech">BTECH</option>
+                <option value="bca">BCA</option>
+                <option value="mba">MBA</option>
+                <option value="mca">MCA-</option>
+        </select>
+        </p>
+        
+        <p>
+            <label>contact no.</label>
+            <input type="tel" name="contact" placeholder="enter your phone no." required>
+        </p> 
+
+        <p>
+            <label>address</label>
+            <textarea name="address" rows="4" cols="40" placeholder="enter your address" required></textarea>
+        </p> 
+
+        <p>
+            <input type="submit" value="resister">
+            <input type="reset" value="clear">
+        </p>
+
+    </form>
+    <hr><hr>
+    <p>name:sheetal kumari chaurasia </p>
+    <p>ad.no. 2025b01010480</p>
+    <p>section:cse-26</p>
+</body>
+</html>
