@@ -1,23 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n;
-    cout<<"enter no=";
-    cin>>n;
-    bool check = true;
-    for (int i = 2;i*i<n;i++){
-        if(n==2){
-            break;
-        }
-        if(n%i==0 || ){
-            check = false;
-            break;
-        }
-    }
-    if (check){
-        cout<<"prime number";
-    }
-    else{
-        cout<<"composite number";
-    }   
+    int year;
+    cout<<"Enter the year ";
+    cin>>year;
+    if(year%4==0)
+        cout<<"this year is a leap year";
+        else 
+        cout<<" this year is not a leap year";
+    
 }
