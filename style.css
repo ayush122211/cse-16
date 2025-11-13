@@ -1,0 +1,43 @@
+body{
+    background-color:green;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.product-box
+{
+    background-color:whitesmoke;
+    max-width:fit-content;
+    display:block;
+    margin:auto;
+    justify-content: center;
+    border-radius: 6px;
+    border:1px solid black;
+    padding:20px;
+
+}
+h3
+{
+    font-weight:800;
+
+}
+p{
+    color:grey;
+
+}
+.price
+{
+    font-size:20px;
+    color:red;
+    font-weight:bolder;
+
+}
+button
+{
+background-color:blue;
+color:white;
+border-radius:5px;
+height: 30px;
+width:100px;
+}
